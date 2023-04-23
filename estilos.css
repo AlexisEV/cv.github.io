@@ -3,16 +3,23 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
+    background-color: #0070b8;
 }
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 .grid-form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
 }
 
 .grid-form div {
