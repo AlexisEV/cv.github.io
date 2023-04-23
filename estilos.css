@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 1rem;
     background-color: #0070b8;
@@ -13,7 +13,7 @@ h1 {
 
 .grid-form {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr; /* Cambiado a una sola columna */
     gap: 1rem;
     background-color: white;
     border-radius: 10px;
